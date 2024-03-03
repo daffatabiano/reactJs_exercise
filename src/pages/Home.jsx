@@ -15,10 +15,10 @@ const Home = () => {
   return (
     <Layout>
       {access_token ? (
-        <button onClick={logout}>Logout</button>
+        <button className="nav btn" onClick={logout}>Logout</button>
       ) : (
         <Link to={"/login"}>
-          <h1>Login</h1>
+          <button className="nav">Login</button>
         </Link>
       )}
 

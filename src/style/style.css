@@ -11,8 +11,16 @@ body{
     display: flex;
     gap: 45px;
     float: inline-end;
-    padding: 10px 45px;
-    border-bottom: 1px solid #001c90;
+    background-color: #001c23;
+    padding: 10px 25px;
+    text-align: center;
+    cursor: pointer;
+    flex-direction: row;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #ffff;
 }
 
 .formAddMenu{
@@ -24,4 +32,16 @@ body{
     gap: 10px;
     justify-content: center;
     align-items: center;
+}
+
+.footer{
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 300px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    float: bottom;
 }
